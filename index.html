@@ -1,0 +1,893 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Home</title>
+
+
+</head>
+
+<body>
+  <!--nav-->
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Trip engineer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Tour by category
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="honeymoon package.html">Honeymoon package</a></li>
+              <li><a class="dropdown-item" href="Adventure and wildlife package.html">Adventure and wildlife package</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="single tour package.html">Single tour package</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Request quote.html">Request quote</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact us.html">Contacts</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--nav end-->
+
+
+  <!--Scroller-->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img style="width: 100%; height:600px;" img-responsive src="pic/scroller2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100%; height:600px;" img-responsive src="pic/scroller4.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img style="width: 100%; height:600px;" img-responsive src="pic/scroller1.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--scroller end-->
+
+  <!--section 1: island escapes-->
+  <div class="border1">
+    <div class="container card bg-theme p-1">
+      <center>
+        <h2 class="mb-4 title">ISLAND ESCAPES</h2>
+      </center>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/maldivs.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Maldiv</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/andman.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Andman & Nicobar</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/gova.jpg" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Seychelles</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--island end-->
+  <br>
+
+
+  <!--section:europ-->
+  <div class="border1">
+    <div class="container card bg-theme p-1">
+      <center>
+        <h2 class="mb-4 title">BEST OF EUROPE</h2>
+      </center>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/swit.jpeg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Denmark</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/uro2.jpeg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Turkey</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/uro3.webp" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Greece</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/uro4.jpeg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Switzerland</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/uro5.jpeg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Russia</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/uro6.jpeg" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i> Ukrain</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--EUROPE end-->
+  <BR>
+
+
+  <!--section South east asia-->
+  <div class="border1">
+    <div class="container card bg-theme p-1">
+      <center>
+        <h2 class="mb-4 title">South East Asia Pick-up</h2>
+      </center>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/singapore1.jpeg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Singapore</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/malys.jpeg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Malaysia</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/thailand1.webp" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Thailand</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--south east asia end-->
+  <br>
+
+
+  <!--section:divers india-->
+
+  <div class="border1">
+    <div class="container card bg-theme p-1">
+      <center>
+        <h2 class="mb-4 title">Diverse INDIA</h2>
+      </center>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/Kerala.png" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Kerala</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/punjab.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Punjab</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/north east.jpg" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>North-east India</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/ladakh.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Ladakh</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/kashmir.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Srinagar</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/rajasthan.png" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Rajasthan</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- diverse india end-->
+  <br>
+
+
+
+  <!--section HImalayan treks-->
+  <div class="border1">
+    <div class="container card bg-theme p-1">
+      <center>
+        <h2 class="mb-4 title">Himalayan Treks</h2>
+      </center>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/kathmandu.jpeg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Kathmandu</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/uk.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Haridwar</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/manali.jpeg" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Manali</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--section 4 end-->
+
+  <!--section 4-->
+  <div class="border1">
+    <div class="container card bg-theme p-1">
+      <center>
+        <h2 class="mb-4 title">GLORY of Indus velly </h2>
+      </center>
+      <div class="card-group">
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/hadappa.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Hadappa</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/mohanzo.jpg" class="card-img-top honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>MohanzoDaro</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img style="width: 100%; height:200px;" src="pic/dhaulavira.jpg" class="card-img-top  honeymoon" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-geo-alt"></i>Dhaulavira</h5>
+            <p class="card-text"> <button style="background-color:rgba(178, 165, 202, 0.607) ;" class="btn" id="btn"
+                href="/request.html"> Book now</button>
+              <button style="background-color:#c5e923ed ;" class="btn"><i class="bi bi-heart"></i> Add to
+                wishlist</button>
+            </p>
+            <p class="card-text"><small class="text-muted">($3000 only)</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--section 4 end-->
+
+
+  <!--latest news-->
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <center>
+        <h2 class="mb-4 title"> LATEST NEWS</h2>
+      </center>
+      <div class="carousel-item active">
+        <img style="width: 100%; height:450px;" img-responsive src="pic/vana1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>VARANSI</h1>
+          <p>50% off, if you plan your trip before 15-sept-2022</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100%; height:450px;" img-responsive src="pic/lad1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>LADAKH</h1>
+          <p>60% off, if you plan your trip before 15-sept-2022</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img style="width: 100%; height:450px;" img-responsive src="pic/gova.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>GOA</h1>
+          <p>40% off, if you plan your trip before 15-sept-2022.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100%; height:450px;" img-responsive src="pic/lon1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>LONDON </h1>
+          <p>40% off, if you plan your trip before 15-sept-2022</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100%; height:450px;" img-responsive src="pic/isreal1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>ISREAL</h1>
+          <p>60% off, if you plan your trip before 15-sept-2022</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--latest news end -->
+
+  <!-- testimonial start -->
+  <section class="testimonials bg-theme text-blue-dark text-justify py-5">
+    <div class="container">
+      <div class="page-title text-center mb-5">
+        <h2 class="text-blue-dark font-weight-bold">Testimonials</h2>
+      </div>
+
+      <section>
+
+        <div class="row text-center d-flex align-items-stretch">
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #9d789b;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Maria Smantha</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i> Very good and experienced dentist. My 10 year
+                  old
+                  daughter
+                  was
+                  so comfortable with the dentist. Dr Ambuja Lakshmi has done her
+                  restoration.
+                  She was so friendly. The place was very well hygienically
+                  maintained.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #7a81a8;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Lisa Cudrow</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i> A very emotional experience. Thank you Iris
+                  Hami for leading this successful trip. The
+                  hotel, the food, the guide and the traveling and trip schedule including visiting
+                  significant places
+                  in Bahrain made this trip an experience which was perfectly orchestrated and
+                  adjusted according to
+                  limits and changes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #6d5b98;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">John Smith</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i> Israel was awesome! Even though I’d been
+                  there 3x
+                  before, I saw so much I did not even know about or missed on previous trips. Beit
+                  Shean was one of
+                  those places. So much history and all of the archaeological sites are of particular
+                  interest to me. Of
+                  course Safed, The Old City, the Wall, etc. were all their usual greatness! And so
+                  much more!!
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <section>
+
+        <div class="row text-center d-flex align-items-stretch">
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #9d789b;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="pic/test03.jpg" class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Marco Smantha</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i> The trip was great overall. The cruise itself
+                  was amazing. Going to College Fjord was probably the highlight followed by Glacier
+                  Bay (a close second). We saw a lot of glacial calving of the Harvard Glacier in
+                  College Fjord. Otherwise Skagway was beautiful and Junea and Ketchikan were very
+                  nice too. The Bald Eagles around Ketchikan were amazing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #7a81a8;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="pic/test02.jpg" class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Tom Cudrow</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i> “Booking through you was very easy and made
+                  our lives so much easier. I have nothing bad to say! Thank you for giving us tips
+                  and guidance before we left on what to bring and such, that was very helpful! Thanks
+                  again, Meg S.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #6d5b98;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="pic/test01.jpg" class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">John Smith</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i> We had a wonderful time! I highly recommend
+                  the Resort at Longboat Key & the area. It was perfect for not being crowded on the
+                  beach w/ Covid concerns. The beach is for guests only & beautiful!....Thanks so much
+                  for finding the perfect spot for us for spring break :)
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--testimonal end-->
+      <br>
+
+      <!-- our team-->
+      <div class="carousel-inner">
+        <center>
+          <h1 class="mb-4 title">OUR TEAM</h1>
+        </center>
+        <div class="card-group">
+          <div class="card">
+            <img style="width: 100%; height:300px; " src="pic/ceo1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">
+                <center>
+                  Justin Ramos
+                </center>
+              </h4>
+              <p class="card-text">
+                <center>
+                  <h3 class="mb-4 title">CEO</h3>
+                </center>
+              </p>
+            </div>
+
+          </div>
+          <div class="card">
+            <img style="width: 100%; height:300px;" src="pic/cof1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">
+                <center>
+
+                  Mary Huntly
+                </center>
+              </h4>
+              <p class="card-text">
+                <center>
+                  <h3 class="mb-4 title">CO-FONDER</h3>
+                </center>
+              </p>
+            </div>
+
+          </div>
+          <div class="card">
+            <img style="width: 100%; height:300px; " src="pic/direc.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">
+                <center>
+                  Michele Miller
+                </center>
+              </h4>
+              <p class="card-text">
+                <center>
+                  <h3 class="mb-4 title">DIRECTOR</h3>
+                </center>
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <!-- ourteam end-->
+
+      <!--section-->
+      <div class="md-10">
+        <h3 class="text-center pt-4 pb-4">Frequently Asked Questions</h3>
+        <div class="accordion accordion-flush border" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                How do I contact the travel consultant for my booking?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">You can either email the Travel Consultant on your Quote or you can phone
+                our Reservations department on 1300 883 887 or if you are calling from outside Australia +61 7 3804
+                8411 and ask for the Consultant handling your booking. Please have your Quote reference number ready.
+                <code> </code> .
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How do I verify a OneTravel charge on my statement?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Verify with your bank what company the charges are coming from that have
+                posted. Most tickets issued through OneTravel will have the description of NV or Las Vegas on your
+                statement. If you are certain there are posted duplicate charges from OneTravel, please contact the
+                Billing Department for Assistance at (646) 738-4943.
+                <code> </code>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                How do I contact the Trusted Traveler program?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <code> </code>If you have questions or concerns about your Global Entry, NEXUS, or SENTRI membership,
+                you may visit the Trusted Traveler Program website or contact Customs and Border Protection at (877)
+                227-5511 or by email. What is the difference between Global Entry, TSA PreCheck® and the other Trusted
+                Traveler programs?
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--section end-->
+      <br>
+      <!--why section-->
+      <!-- Load Font Awesome Icon Library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <center>
+        <h2 class="mb-4 title">Why Trip Engineers?</h2>
+      </center>
+
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Your Trusted Advisor</h2>
+          <p> We’ll answer your every question. Our experienced travel experts and real-time on field
+            know-how gives us this advantage. </p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>We Love Listening</h2>
+          <p> Your holiday, your terms. We’ll fill in the blanks to plan the perfect trip in the blink
+            of an eye.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column" style="background-color:#ccc;">
+          <h2>Memorable Experiences</h2>
+          <p> Do everything or do nothing. Either way, your holiday will be nothing less than
+            extraordinary. </p>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+          <h2>Handcrafted Holidays</h2>
+          <p> We interact with our loyal customers to co-create unique experiences that will take your
+            holiday to the next level. </p>
+        </div>
+      </div>
+      <!--end why-->
+
+      <br>
+
+
+     
+
+     <!--footer-->
+     <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="honeymoon package.html" class="nav-link px-2 text-muted">Honeymoon package</a></li>
+        <li class="nav-item"><a href="Adventure and wildlife package.html" class="nav-link px-2 text-muted">Adventure & wildlife package</a></li>
+        <li class="nav-item"><a href="single tour package.html" class="nav-link px-2 text-muted">Single tour package</a></li>
+        <li class="nav-item"><a href="About.html" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="contact us.html" class="nav-link px-2 text-muted">Contact-us</a></li>
+      </ul>
+      <p class="text-center text-muted">©Aditya_trip-engineer</p>
+    </footer>
+     <!--end footer-->
+      
+      <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a loop variable
+        var i;
+
+        // List View
+        function listView() {
+          for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "100%";
+          }
+        }
+
+        // Grid View
+        function gridView() {
+          for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "50%";
+          }
+        }
+        
+      </script>
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
